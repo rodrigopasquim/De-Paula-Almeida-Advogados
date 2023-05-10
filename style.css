@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background-color: gray;
+}
+
+.cabecario{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    padding: 10px 0 10px 0;
+}
+
+.logo{
+    width: 100px;
+}
+
+.navegacao{
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
+
+.navegacao-text{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navegacao-btn-contato{
+    padding: 13px 12px 13px 12px;
+    border-radius: 10px;
+    background-color: #3e4095;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 1s;
+}
+
+.navegacao-btn-contato:hover{
+    background-color: #61629c;
+    color: white;
+}
+
+.inicio{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+    padding: 70px 0 0 0 ;
+    background-color: rgb(255, 255, 255);
+    height: 500px;
+}
+
+.quadrados{
+    background-color: #ffc908;
+    height: 350px;
+    width: 250px;
+    border-radius: 20px;
+}
+
+.service-titles{
+    display: flex;
+    justify-content: center;
+    padding: 30px 0 0 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 20pt;
+    color: #3e4095;
+    font-weight: 1000;
+}
+
+.sobre{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: px;
+    background-color: #3e4095;
+}
+
+.sobre-title{
+    font-family: 'Inter', sans-serif;
+    color: #ffc908;
+    font-size: 25pt;
+    font-weight: 1000;
+    padding: 0 0 20px 0;
+}
+
+.sobre-text{
+    font-family: 'Inter', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.foto-reginaldo{
+    position: relative;
+    top: 4px;
+}
+
+
+
+
+
+.endereco{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color:#ffc908;
+    padding: 50px 0 50px 0;
+}
+
+.endereco-mapa{
+    width: 550px;
+    height: 300px;
+}
+
+.endereco-side-right{
+    display: flex;
+    flex-direction: column;
+    align-content: start;
+    padding: 50px 0 0 30px;
+}
+
+.endereco-title{
+    font-family: 'Inter', sans-serif;
+    color:#3e4095;
+    font-size: 25pt;
+    font-weight: 1000;
+    padding: 0 0 20px 0;
+}
+
+.endereco-subtitle{
+    color: #3e4095;
+    font-size: 15pt;
+    font-family: 'Inter', sans-serif;
+    padding: 0 0 20px 0;
+}
+
+.endereco-text{
+    font-family: 'Inter', sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+
+
+.rodape{
+    padding: 20px 0 0 0;
+    background-color: #ffffff;
+}
+
+.rodape-up{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.rodape-logo{
+    width: 200px;
+}
+
+.rodape-social-media{
+    display: flex;
+    gap: 10px;
+}
+
+.rodape-social-media-img{
+    width: 35px;
+    height: 35px;
+}
+
+.rodape-down{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 30px 0 30px 0;
+    border-bottom: 20px solid #3e4095;
+}
+
+.rodape-down a{
+    color: rgb(0, 0, 0);
+    font-family: 'Inter', sans-serif;
+    font-size: 10pt;
+}
+
+.rodape-down-termos{
+    display: flex;
+    gap: 20px;
+}
+
