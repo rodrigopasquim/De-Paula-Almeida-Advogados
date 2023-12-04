@@ -1,0 +1,49 @@
+.cabecario{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 10px 0 10px 0;
+    z-index: 999;
+    animation: aparecer 1s ease;
+    backdrop-filter: blur(5px);
+    transition: background-color 0.3s ease;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.3s ease;
+}
+
+.cabecario.borda-ativa {
+    border-color: #141d333c;
+}
+
+.cabecario-logo{
+    width: 150px;
+}
+
+.navegacao{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.navegacao-text{
+    color: black;
+    font-family: 'Inter', sans-serif;
+}
+
+.navegacao-btn-contato{
+    padding: 8px 13px;
+    border-radius: 10px;
+    background-color: #141d33;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    transition: 1s;
+}
+
+.navegacao-btn-contato:hover{
+    background-color: #61629c;
+    color: white;
+}
